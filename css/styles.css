@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7e6;  
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.homepage {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.homepage .container.text-center {
+    color: black; 
+}
+
+
+.navbar {
+    background-color: #f77f00;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background-color: #ffaf40; 
+    border-radius: 4px;
+}
+
+
+.btn {
+    background-color: #f77f00; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffaf40;
+}
+
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #f77f00;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #ffaf40;
+    box-shadow: 0 0 8px rgba(255, 175, 64, 0.5);
+}
+
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+}
+
+.card-header {
+    background-color: #f77f00;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+
+footer {
+    background-color: #f77f00;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.navbar .form-control {
+    width: 300px;
+    border: 2px solid #f77f00;
+}
+
+.navbar .form-control:focus {
+    border-color: #ffaf40;
+}
